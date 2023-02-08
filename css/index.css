@@ -94,6 +94,7 @@ h4 {
 }
 
 .button-violet {
+  font-family: "Montserrat", sans-serif;
   width: 145px;
   height: 37px;
   background: #8d81ac;
@@ -232,7 +233,6 @@ h4 {
   align-items: center;
   padding: 183px 0px 459px 0px;
   position: relative;
-  z-index: 2;
 }
 
 .app__title {
@@ -290,6 +290,7 @@ h4 {
   height: 100%;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 .section__revolutionary {
@@ -317,6 +318,7 @@ h4 {
 }
 
 .trial-load__btn {
+  font-family: "Montserrat";
   font-size: 21px;
   font-weight: 700;
   color: #ffffff;
@@ -440,7 +442,7 @@ h4 {
 .example__screen {
   width: 700px;
   position: absolute;
-  right: -70px;
+  right: -90px;
   top: 65px;
 }
 
@@ -716,6 +718,7 @@ h4 {
 }
 
 .pricing-card__btn {
+  font-family: "Montserrat";
   font-size: 15px;
   text-transform: uppercase;
   background-color: hsla(0deg, 0%, 100%, 0.15);
@@ -1025,9 +1028,20 @@ h4 {
   }
 
   .pricing__cards-wrapper {
-    width: 300px;
+    width: 60%;
+    min-width: 300px;
     justify-content: center;
     gap: 18px;
+  }
+
+  .pricing__card.card--big {
+    width: 100%;
+    min-width: 299px;
+  }
+
+  .pricing__card {
+    width: 80%;
+    min-width: 257px;
   }
 
   .grid_1-1._active,
